@@ -158,10 +158,6 @@ addBtn.addEventListener("click", () => {
   });
 });
 
-// Initial adjustment
-
-// Event listener for window resize
-
 // addbtn size task
 btnSize();
 window.addEventListener("resize", btnSize);
