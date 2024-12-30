@@ -12,11 +12,16 @@ body {
   background-color: rgb(78, 78, 171);
 }
 .container {
-  width: 50vw;
-  height: 80vh;
+  width: 40%;
+  height: 80%;
   background-color: wheat;
   border-radius: 2%;
   overflow: hidden;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
 }
 h1 {
   text-align: center;
@@ -25,7 +30,7 @@ h1 {
 }
 #inpt {
   height: 5vh;
-  width: 35vw;
+  width: 70%;
   margin-left: 6%;
 }
 #add {
