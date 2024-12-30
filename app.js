@@ -86,7 +86,7 @@ addBtn.addEventListener("click", () => {
   adjustTextSize();
   window.addEventListener("resize", adjustTextSize);
 
-  //
+  //responsive task
   function adjustTextSize() {
     const screenWidth = window.innerWidth;
 
@@ -101,6 +101,9 @@ addBtn.addEventListener("click", () => {
       entryPara.style.fontSize = "10px";
       delBtn.style.fontSize = "10px";
       doneBtn.style.fontSize = "8px";
+      delBtn.style.width='100%'
+      doneBtn.style.width='100%'
+
     } else if (screenWidth < 675) {
       doneBtn.style.fontSize = "12px";
       delBtn.style.fontSize = "12px";
